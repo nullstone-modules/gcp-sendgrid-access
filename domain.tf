@@ -1,6 +1,6 @@
 data "ns_connection" "sendgrid" {
   name     = "sendgrid"
-  contract = "datastore/aws/sendgrid"
+  contract = "datastore/gcp/sendgrid"
 }
 
 locals {
